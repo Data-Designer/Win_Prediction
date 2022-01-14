@@ -1,0 +1,34 @@
+******************* [0;34m[1mPackage Operations Notification on DanLu Base Image[0m ******************
+[38;5;196mWARNING: Current environment is a containered one, in which all packages EXCEPT under /root 
+directory WILL BE LOST, if you install them by such package management tools as apt-get or pip or apt or 
+apk, when reboot/reset the environment. So we highly recommend you persitent these more packages 
+by Dockerfile in DanLu platform.[0m
+******************************************************************************************
+***operation commands history [31mSHOULD BE[0m saved into .bash_history***
+bitarray==2.1.3
+certifi==2018.1.18
+cffi==1.14.5
+chardet==3.0.4
+cryptography==3.4.7
+docopt==0.6.2
+hdfs==2.5.8
+idna==2.6
+impyla==0.14.1
+kerberos==1.3.0
+numpy==1.14.5
+pandas==0.24.0
+ply==3.11
+pycparser==2.20
+pygobject==3.26.1
+pykerberos==1.2.1
+python-dateutil==2.8.1
+pytz==2021.1
+redis==2.10.6
+requests==2.18.4
+requests-kerberos==0.12.0
+sasl==0.2.1
+six==1.11.0
+ssh-import-id==5.7
+thrift-sasl==0.2.1
+thriftpy==0.3.9
+urllib3==1.22
